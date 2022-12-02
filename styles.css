@@ -5,4 +5,24 @@
  
 #writing {
     margin-bottom: 10px;
+    border-radius: 12px;
 }
+
+#links {
+    position: relative;
+}
+
+#links div {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type=submit] {
+    border-radius: 5px;
+}
+
