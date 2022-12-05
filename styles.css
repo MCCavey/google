@@ -26,3 +26,21 @@ input[type=submit] {
     border-radius: 5px;
 }
 
+.left {
+    margin-left: 50px;
+    display: table;
+}
+
+.advSearch {
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+p     { display: table-row;  }
+label { display: table-cell; }
+input { display: table-cell; }
+
+#advButton{
+    background-color: blue;
+    color: white;
+}

@@ -13,12 +13,25 @@
             <a href="index.html">Home</a>
         </div>
     </div>
-    <form class="center" action="https://www.google.com/search">
+    <form class="left" action="https://www.google.com/search">
+        <p>
+            <label for="all">all these words:</label>
+            <input class="advSearch" type="text" name="all">
+        </p>
+        <p>
+            <label for="this">this exact word or phrase:</label>
+            <input class="advSearch" type="text" name="this">
+        </p>
+        <p>
+            <label for="any">any of these words:</label>
+            <input class="advSearch" type="text" name="any">
+        </p>
+        <p>
+            <label for="none">none of these words:</label>
+            <input class="advSearch" type="text" name="none">
+        </p>
         <div>
-            <input id="writing" type="text" name="q">
-        </div>
-        <div>
-            <input type="submit" value="Advanced Search">
+            <input type="submit" value="Advanced Search" id="advButton">
         </div>    
     </form>
 </body>
